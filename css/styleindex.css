@@ -1,0 +1,97 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+}
+
+.Logo {
+    text-align: center; 
+    margin: auto;      
+}
+
+.Logo img {
+    width: 220px;       
+    height: auto;      
+    display: inline-block;
+}
+h1 {
+    margin: 5px;
+    color:#103260;
+    font-size: 30px;
+}
+h2 {
+    font-size: 20px;
+}
+span { 
+    color: #3e89b4;
+}
+.contenedor{
+    text-align: center;  
+    margin: 5px;
+}
+.contenedor--demostraciones,
+.contenedor--info,
+.contenedor--tutorias {
+    width: 300px;
+    height: 270px;
+    padding: 20px;
+    margin: 0;
+    box-sizing: border-box;
+    text-align: center;
+    color: white;
+    display: inline-block;
+
+}
+.contenedor--demostraciones {
+    background:#103260;
+    border-radius: 10px 0 0 10px;
+
+
+}
+.contenedor--info {
+    background: linear-gradient(to right, #103260, #3e89b4);
+
+}
+.contenedor--tutorias{
+    background:#3e89b4;
+    border-radius: 0 10px 10px 0 ;
+}
+.letra{
+    color: #fff;
+        font-size: 17px;
+}
+.btn {
+    padding: 10px 30px;
+    font-size: 15px;
+    color: #fff;
+    background-color: #000;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    box-shadow: 0 0 px #000 ;
+    transition: all 1s ease;
+}
+.btn:hover {
+    transform: scale(1.1);
+}
+footer { 
+    color: #000;
+    text-align: center;
+    width: 100%;
+}
+p{
+    color:#103260;
+    font-size: 20px;
+}
+.copy{
+    color: #000;
+}
+@media screen and (max-width: 600px) {
+    .contenedor--demostraciones,
+    .contenedor--info,
+    .contenedor--tutorias {
+        border-radius: 0 !important;
+    }
+    .contenedor--info {
+        background:linear-gradient(#103260, #3e89b4)!important ;
+    }
+    }
